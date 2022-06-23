@@ -15,18 +15,25 @@
     "esModuleInterop": true,
     "module": "esnext",
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "resolveJsonModule": true
   },
   "paths": {
-    "my-lib": [
-      "projects/lib/src/index.ts"
+    "prisma": [
+      "./projects/lib/prisma.ts"
     ]
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "pages/api/login.js", "pages/api/contacts.js", "pages/api/contacts.js", "pages/_app.jsx", "pages/index.jsx", "pages/api/contacts.js"  ],
+    "**/*.tsx",
+    "pages/api/login.js",
+    "pages/api/contacts.js",
+    "pages/api/contacts.js",
+    "pages/_app.jsx",
+    "pages/index.tsx",
+    "pages/api/contacts.js"
+, "lib/prisma.js", "pages/api/create.js"  ],
   "exclude": [
     "node_modules"
   ]
