@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Web Dev",
+    "desc": "Create a new Todo app to practice React state management",
+    "id": 1,
+    "status": false
+  },
+  {
+    "title": "UI Design",
+    "desc": "Create a Prototype for a new app",
+    "id": 2,
+    "status": false
+  },
+  {
+    "title": "Game Dev",
+    "desc": "Desc",
+    "id": 3,
+    "status": false
+  }
+]
